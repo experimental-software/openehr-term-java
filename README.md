@@ -1,6 +1,4 @@
-# openehr-term-java
-
-[![Stability: Experimental](https://masterminds.github.io/stability/experimental.svg)](https://masterminds.github.io/stability/experimental.html)
+# openehr-term-java [![Stability: Experimental](https://masterminds.github.io/stability/experimental.svg)](https://masterminds.github.io/stability/experimental.html)
 
 This repository contains the Java interface types for the openEHR [TERM specifications](https://specifications.openehr.org/releases/TERM).
 
@@ -42,7 +40,7 @@ After the configuration of the GitHub Maven repository, the
 ```groovy
 repositories {
     maven {
-        url = uri('https://maven.pkg.github.com/experimental-software/openehr-term-java')
+        url = uri('https://maven.pkg.github.com/openehr-java-api/openehr-term-java')
         credentials {
             username = project.findProperty('gpr.user')
             password = project.findProperty('gpr.key')
