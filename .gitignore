@@ -19,15 +19,8 @@ out/
 .vscode/
 **/bin
  
-# Mason (https://docs.brickhub.dev/brick-syntax)
-mason-lock.json
-.mason/
-mason.yaml
-bricks
-create_brick.sh
-create_interface.sh
-
 # Miscellaneous
+**/src/**/*.json
 .notes/
 .scannerwork/
 \#*

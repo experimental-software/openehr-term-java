@@ -18,7 +18,7 @@ How to create such an access token is described here: [docs.github.com](https://
 <dependency>
   <groupId>com.experimental-software.java-api</groupId>
   <artifactId>openehr-term-support-terminology</artifactId>
-  <version>2.4.0-alpha-1</version>
+  <version>2.4.0-alpha-4</version>
 </dependency>
 ```
 
@@ -49,7 +49,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.experimental-software.java-api:openehr-term-support-terminology:2.4.0-alpha-1'
+    api 'com.experimental-software.java-api:openehr-term-support-terminology:2.4.0-alpha-4'
 }
 ```
 
