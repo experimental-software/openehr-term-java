@@ -1,0 +1,41 @@
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+fileTemplates/
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+**/bin
+ 
+# Mason (https://docs.brickhub.dev/brick-syntax)
+mason-lock.json
+.mason/
+mason.yaml
+bricks
+create_brick.sh
+create_interface.sh
+
+# Miscellaneous
+.notes/
+.scannerwork/
+\#*
+.#*
+*~
+*~*
+*.orig
+*.hprof
+.DS_Store

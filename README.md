@@ -1,4 +1,4 @@
-# openehr-term-java
+# openehr-term-j3x
 
 ## References
 
