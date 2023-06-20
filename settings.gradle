@@ -5,6 +5,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'openehr-term-java'
+rootProject.name = 'openehr-term-4j'
 
 include('openehr-term-support-terminology')

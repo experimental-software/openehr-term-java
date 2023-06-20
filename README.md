@@ -1,4 +1,4 @@
-# openehr-term-j3x [![Stability: Experimental](https://masterminds.github.io/stability/experimental.svg)](https://masterminds.github.io/stability/experimental.html)
+# openehr-term-4j [![Stability: Experimental](https://masterminds.github.io/stability/experimental.svg)](https://masterminds.github.io/stability/experimental.html)
 
 This repository contains the source code for Maven packages with Java interface declarations for the classes defined by the respective specification of the openEHR TERM component.
 
@@ -8,13 +8,13 @@ This repository contains the source code for Maven packages with Java interface 
 
 ## Usage
 
-The "openehr-term-j3x" packages are published to [GitHub Packages](https://github.com/features/packages).
+The "openehr-term-4j" packages are published to [GitHub Packages](https://github.com/features/packages).
 So, even though they are publicly available, projects that want to apply those packages need a GitHub access token with the "read:packages" scope.
 How to create such an access token is described here: [docs.github.com](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 ### Maven
 
-For projects that use Maven as build management tool, the personal GitHub access token and "openehr-term-j3x" GitHub package repository should be added to the global Maven settings.
+For projects that use Maven as build management tool, the personal GitHub access token and "openehr-term-4j" GitHub package repository should be added to the global Maven settings.
 
 <details>
   <summary><code>~/.m2/settings.xml</code></summary>
@@ -38,7 +38,7 @@ For projects that use Maven as build management tool, the personal GitHub access
         </repository>
         <repository>
           <id>github</id>
-          <url>https://maven.pkg.github.com/openehr-java-api/openehr-term-j3x</url>
+          <url>https://maven.pkg.github.com/openehr-java-api/openehr-term-4j</url>
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
@@ -58,7 +58,7 @@ For projects that use Maven as build management tool, the personal GitHub access
 
 </details> 
 
-Then the dependencies to the "openehr-term-j3x" packages can be declared inside the Project Object Model.
+Then the dependencies to the "openehr-term-4j" packages can be declared inside the Project Object Model.
 
 <details>
   <summary><code>/path/to/project/pom.xml</code></summary>
@@ -111,7 +111,7 @@ After the registration of the GitHub Maven repository, the dependency on the req
 ```groovy
 repositories {
     maven {
-        url = uri('https://maven.pkg.github.com/openehr-java-api/openehr-term-j3x')
+        url = uri('https://maven.pkg.github.com/openehr-java-api/openehr-term-4j')
         credentials {
             username = project.findProperty('gpr.user')
             password = project.findProperty('gpr.key')
@@ -134,7 +134,7 @@ dependencies {
 
 ### Version number scheme
 
-The "openehr-term-j3x" package version number consists of two parts: (1) the version number of the corresponding openEHR component and (2) a package-specific suffix. Those two parts are separated by the first hyphen.
+The "openehr-term-4j" package version number consists of two parts: (1) the version number of the corresponding openEHR component and (2) a package-specific suffix. Those two parts are separated by the first hyphen.
 
 The suffix has four different types:
 

@@ -1,8 +1,8 @@
 publishing {
   publications {
     mavenJava(MavenPublication) {
-      groupId = 'com.experimental-software.java-api'
-      artifactId = 'openehr-term-support-terminology'
+      groupId = 'com.experimental-software.term'
+      artifactId = 'support-terminology-api'
 
       from components.java
     }
@@ -11,7 +11,7 @@ publishing {
   repositories {
     maven {
       name = 'GitHubPackages'
-      url = 'https://maven.pkg.github.com/openehr-java-api/openehr-term-java'
+      url = 'https://maven.pkg.github.com/openehr-java-api/openehr-term-4j'
       credentials {
         username = System.getenv('GITHUB_ACTOR')
         password = System.getenv('GITHUB_TOKEN')

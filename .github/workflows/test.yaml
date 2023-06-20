@@ -18,4 +18,4 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - run: ./gradlew publishToMavenLocal
+      - run: ./gradlew publishToMavenLocal -Pgpr.user=${{ secrets.GITHUB_ACTOR }} -Pgpr.key=${{ secrets.GITHUB_TOKEN }}

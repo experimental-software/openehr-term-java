@@ -15,7 +15,7 @@ scmVersion {
 }
 
 allprojects  {
-    group = 'com.experimental-software.java-api'
+    group = 'com.experimental-software.term'
     project.version = scmVersion.version
 }
 
