@@ -71,7 +71,7 @@ Then the dependencies to the "openehr-term-4j" packages can be declared inside t
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <properties>
-        <openehr.term.version>TBD</openehr.term.version>
+        <openehr.term.version>2.4.0-alpha-5</openehr.term.version>
     </properties>
 
     <dependencies>
@@ -119,7 +119,7 @@ repositories {
     }
 }
 
-ext['openehrTermVersion'] = 'TBD'
+ext['openehrTermVersion'] = '2.4.0-alpha-5'
 
 dependencies {
     TBD
