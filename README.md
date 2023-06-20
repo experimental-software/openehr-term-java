@@ -75,7 +75,11 @@ Then the dependencies to the "openehr-term-4j" packages can be declared inside t
     </properties>
 
     <dependencies>
-        TBD
+        <dependency>
+            <groupId>com.experimental-software.term</groupId>
+            <artifactId>support-terminology-api</artifactId>
+            <version>${openehr.term.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
@@ -122,7 +126,7 @@ repositories {
 ext['openehrTermVersion'] = '2.4.0-alpha-5'
 
 dependencies {
-    TBD
+    implementation "com.experimental-software.term:support-terminology-api:${openehrTermVersion}"
 }
 ```
 
